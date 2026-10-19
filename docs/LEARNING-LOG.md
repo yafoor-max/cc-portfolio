@@ -16,3 +16,5 @@ A running record of tasks completed, lessons extracted, and portfolio-ready clai
 | 2026-10-19 | code-reviewer audit of MASTER-PROTOCOL.md | Used code-reviewer sub-agent to review protocol for clarity and structure | Applied automated review to improve portfolio docs |
 | 2026-10-19 | Applied 3 protocol fixes from code review | Expanded placeholder sections, fixed vague token bullet, broke overloaded init bullet into checklist | Improved portfolio docs via actionable protocol updates |
 | 2026-10-19 | Sub-agent creation & orchestration | Created code-reviewer.md in .claude/agents/, tested review workflow, applied 3 fixes to MASTER-PROTOCOL.md | Orchestrated multi-agent workflow with delegated review tasks |
+| 2026-10-19 | Portfolio website build | Built responsive portfolio site in projects/portfolio-website/ with semantic HTML, CSS Grid/Flexbox, and scroll animations | Delivered professional portfolio website with modern responsive design |
+| 2026-10-19 | Lead capture API | Built lead-capture-api with Express + SQLite, POST/GET /api/leads, validation, and Render deploy ready | Delivered REST API with SQLite persistence and free-tier deployment |

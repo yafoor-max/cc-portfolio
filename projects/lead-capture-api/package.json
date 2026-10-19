@@ -1,0 +1,17 @@
+{
+  "name": "lead-capture-api",
+  "version": "1.0.0",
+  "description": "Lead capture REST API — Express + SQLite",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  }
+}
