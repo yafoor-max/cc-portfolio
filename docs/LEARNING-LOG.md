@@ -1,3 +1,4 @@
+
 # Learning Log
 
 A running record of tasks completed, lessons extracted, and portfolio-ready claims.
@@ -18,3 +19,23 @@ A running record of tasks completed, lessons extracted, and portfolio-ready clai
 | 2026-10-19 | Sub-agent creation & orchestration | Created code-reviewer.md in .claude/agents/, tested review workflow, applied 3 fixes to MASTER-PROTOCOL.md | Orchestrated multi-agent workflow with delegated review tasks |
 | 2026-10-19 | Portfolio website build | Built responsive portfolio site in projects/portfolio-website/ with semantic HTML, CSS Grid/Flexbox, and scroll animations | Delivered professional portfolio website with modern responsive design |
 | 2026-10-19 | Lead capture API | Built lead-capture-api with Express + SQLite, POST/GET /api/leads, validation, and Render deploy ready | Delivered REST API with SQLite persistence and free-tier deployment |
+## 2026-10-20 | Hour 4: Webhooks + OAuth 2.0 + Follow-up Agent
+
+### What I Built:
+- Lead Scoring Agent (scorer.js) - JavaScript function that assigns priority scores
+- Webhook Simulator (simulate-form.js) - Simulates n8n/Make automation
+- Complete automation pipeline: Form → API → Agent → Database
+
+### OAuth 2.0 Learning:
+- OAuth 2.0 = Authorization without sharing passwords
+- Used it when connecting GitHub to Render.com
+- Used it when "Login with Google" on websites
+- Token-based authentication (not password-based)
+- Scopes define what access is granted (least privilege principle)
+
+### Portfolio Claims:
+✅ Built REST API with Express + SQLite
+✅ Implemented lead scoring agent (business logic automation)
+✅ Simulated webhook automation (n8n/Make equivalent)
+✅ Understood OAuth 2.0 authorization flow
+✅ Deployed to GitHub with conventional commits
