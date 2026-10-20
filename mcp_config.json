@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "sqlite-leads": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sqlite",
+        "E:\\cc-portfolio\\projects\\lead-capture-api\\automation.db"
+      ],
+      "description": "Allows AI to query the leads database directly"
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "E:\\cc-portfolio\\docs"
+      ],
+      "description": "Allows AI to read portfolio documentation"
+    }
+  }
+}
