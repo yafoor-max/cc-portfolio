@@ -39,3 +39,51 @@ A running record of tasks completed, lessons extracted, and portfolio-ready clai
 ✅ Simulated webhook automation (n8n/Make equivalent)
 ✅ Understood OAuth 2.0 authorization flow
 ✅ Deployed to GitHub with conventional commits
+
+## 2026-10-20 | Hour 5: Python + RAG + MCP
+
+### What I Built:
+- Python automation script (process_leads.py) - CSV processing + email drafting
+- RAG bot (rag_bot.py) - Context-aware AI with knowledge base
+- MCP configuration (mcp_config.json) - AI-tool integration setup
+
+### Key Learnings:
+- Python is the king of automation (80% of real-world automation uses Python)
+- RAG = Retrieval-Augmented Generation (AI ko context dena before answering)
+- MCP = Model Context Protocol (USB-C for AI - gives AI access to tools)
+- CSV processing is fundamental skill for data automation
+
+### Portfolio Claims:
+✅ Built Python automation for lead processing
+✅ Implemented RAG system for knowledge base queries
+✅ Configured MCP for AI-tool connectivity
+✅ Automated data pipeline (CSV → Filter → Email Draft)
+
+### Challenges:
+- Python wasn't installed initially (used Microsoft Store version)
+- Understanding RAG concept (retrieval + generation steps)
+- MCP configuration syntax (JSON structure)
+
+---
+
+## 2026-10-20 | Hour 6: Portfolio Packaging
+
+### What I Did:
+- Updated main README.md with all projects and skills
+- Documented complete learning journey
+- Prepared portfolio for job applications
+- Final git commit and push
+
+### Final Portfolio Claims:
+✅ Full-stack automation engineer (6-hour build)
+✅ Backend: Node.js + Express + SQLite
+✅ Frontend: HTML + CSS + JavaScript
+✅ Automation: Python + Webhooks + RAG + MCP
+✅ DevOps: Git + GitHub + Netlify + ngrok
+✅ AI Integration: Claude Code + Protocol system
+
+### Next Steps:
+- Apply to automation engineer jobs
+- Build more complex workflows (n8n/Make)
+- Learn advanced RAG (vector databases, embeddings)
+- Explore more MCP servers (Slack, Gmail, etc.)

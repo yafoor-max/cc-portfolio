@@ -1,78 +1,55 @@
-# Lead Capture API
+# Claude Code Automation Portfolio
 
-Simple Express + SQLite REST API for capturing leads.
+Built in 6 hours using Claude Code, demonstrating full-stack automation engineering skills.
 
-## Setup
+## 🚀 Live Projects
 
-```bash
-# Install dependencies
-npm install
+### 1. Portfolio Website
+- **URL:** https://your-netlify-url.netlify.app
+- **Tech:** HTML, CSS, JavaScript
+- **Deployed:** Netlify
 
-# Start the server
-npm start
-# Server runs at http://localhost:3000
-```
+### 2. Lead Capture API
+- **URL:** https://github.com/yafoor-max/cc-portfolio/tree/main/projects/lead-capture-api
+- **Tech:** Node.js, Express, SQLite, JavaScript
+- **Features:**
+  - REST API with GET/POST endpoints
+  - Lead scoring agent (HIGH/MEDIUM/LOW priority)
+  - Webhook simulation (n8n/Make equivalent)
+  - SQLite database persistence
 
-## Endpoints
+### 3. Python Automation Scripts
+- **Location:** `projects/lead-capture-api/`
+- **Scripts:**
+  - `process_leads.py` - CSV processing + email drafting
+  - `rag_bot.py` - RAG (Retrieval-Augmented Generation) bot
+  - `mcp_config.json` - MCP (Model Context Protocol) configuration
 
-| Method | Path | Body | Description |
-|--------|------|------|-------------|
-| GET | `/` | — | Health check |
-| GET | `/api/leads` | — | Returns all leads as JSON |
-| POST | `/api/leads` | `{ "name": "string", "email": "string", "source": "string" }` | Creates a new lead |
+##  Skills Demonstrated
 
-- `name` and `email` are required and cannot be empty.
-- Email format is validated.
-- `source` is optional.
-- Data is stored in `automation.db` (SQLite, created automatically).
+### Backend Development
+- Node.js + Express REST APIs
+- SQLite database design and queries
+- JavaScript business logic (lead scoring agent)
 
-## Testing
+### Automation Engineering
+- Webhook integration and simulation
+- OAuth 2.0 authorization flow
+- Python automation scripts (CSV processing)
+- RAG (Retrieval-Augmented Generation) systems
+- MCP (Model Context Protocol) configuration
 
-Run the server first (`npm start`), then in another terminal:
+### DevOps & Deployment
+- Git workflow with conventional commits
+- GitHub version control
+- Netlify deployment
+- ngrok tunneling for local development
+- Render.com deployment attempts
 
-```bash
-# Create a lead
-curl -X POST http://localhost:3000/api/leads \
-  -H "Content-Type: application/json" \
-  -d '{"name":"Alice","email":"alice@example.com","source":"landing-page"}'
+### AI Integration
+- Claude Code for AI-assisted development
+- Protocol-based AI workflow (MASTER-PROTOCOL.md)
+- RAG bot for knowledge base queries
+- MCP for AI-tool connectivity
 
-# Create another lead
-curl -X POST http://localhost:3000/api/leads \
-  -H "Content-Type: application/json" \
-  -d '{"name":"Bob","email":"bob@example.com","source":"referral"}'
-
-# Get all leads
-curl http://localhost:3000/api/leads
-
-# Test validation — should return 400
-curl -X POST http://localhost:3000/api/leads \
-  -H "Content-Type: application/json" \
-  -d '{"name":"","email":"not-an-email"}'
-```
-
-## Deployment (Render.com Free Tier)
-
-1. Push the project to GitHub (root `cc-portfolio` or as a standalone repo).
-2. On [Render](https://dashboard.render.com/) → New → Web Service → connect the repo.
-3. Set:
-   - **Build Command:** `npm install --prefix projects/lead-capture-api`
-   - **Start Command:** `npm start --prefix projects/lead-capture-api`
-   - Or set **Root Directory** to `projects/lead-capture-api` and use `npm install` / `npm start`.
-4. Render assigns a port via `$PORT` — the server reads `process.env.PORT`.
-5. Verify: `GET https://<your-app>.onrender.com/api/leads` should return `[]` initially.
-
-## Security
-
-- Input validation: `name` and `email` cannot be empty; email format is checked with regex.
-- SQL injection: all queries use parameterized statements (`?` placeholders).
-- No secrets or API keys required — no env vars needed for local use.
-
-## Monitoring
-
-- Every request is logged to the console: `[timestamp] METHOD url`.
-- POST and GET handlers log body and result counts.
-- Database errors are logged with `console.error`.
-
-## Tech Stack
-
-Node.js · Express · SQLite3
+##  Project Structure
